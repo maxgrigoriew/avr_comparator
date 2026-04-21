@@ -61,7 +61,6 @@ void LCD_settings() {
 	LCD_command(0b00110000);
 }
 
-
 int main(void) {
 	PORT_LCD_settingd();
 	LCD_settings();
